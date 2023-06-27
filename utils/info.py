@@ -18,9 +18,9 @@
 
 import os
 
-API_ID       = int(os.environ.get("API_ID", ""))
-API_HASH     = os.environ.get("API_HASH", "")
-BOT_TOKEN    = os.environ.get("BOT_TOKEN", "")
+API_ID       = int(os.environ.get("API_ID", "3484286"))
+API_HASH     = os.environ.get("API_HASH", "a6d454f36dece01cdab40663048b65f2")
+BOT_TOKEN    = os.environ.get("BOT_TOKEN", "2084584822:AAG18z9a_2GqszStcVG6o4NaMI98nLJHOCI")
 SESSION      = os.environ.get("SESSION", "")
 TIME         = int(os.environ.get("TIME", 10))
 CHATS        = [int(cht) for cht in os.environ.get("CHATS", "").split()]
